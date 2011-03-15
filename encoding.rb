@@ -15,6 +15,7 @@ class String
 end  
 
 
-s = "\xC4\xE3\xBA\xC3"
+s = "a\xC4\xE3b\xBA\xC3c"
 
+#puts s
 puts s.to_utf8
