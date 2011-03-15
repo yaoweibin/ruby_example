@@ -97,6 +97,7 @@ end:
     return 0;
 }
 
+/* The output string meaning: 1 stands for utf-8 byte, 0 stands for gbk byte*/
 
 int main () 
 {

@@ -6,7 +6,7 @@
 int is_gbk(unsigned char head, unsigned char tail)
 {
 
-    printf("head = %X, tail = %X\n", head, tail);
+    /*printf("head = %X, tail = %X\n", head, tail);*/
 
     /* See http://en.wikipedia.org/wiki/GBK */
     /* Level GBK/1 */
@@ -93,6 +93,7 @@ int distinguish_gbk(unsigned char *str, size_t len)
     return 0;
 }
 
+/* The output string meaning: 1 stands for gbk byte, 0 stands for utf-8 byte*/
 
 int main () 
 {
